@@ -14,6 +14,15 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- Windows Preload -->
+    <script type="text/javascript">
+    	window.addEventListener('load',function(){
+    		var preload_mask = document.getElementById('window_preload_mask');
+    		document.body.removeChild(preload_mask);
+    	});
+    </script>
+    <!-- Windows Preload -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,6 +32,13 @@
     <![endif]-->
   </head>
   <body>
+    <!-- Windows Preload Mask Start -->
+  	<div id="window_preload_mask">
+  		<div class="central-vh">
+  			We are Loading...
+  		</div>
+  	</div>	
+    <!-- Windows Preload Mask End -->
     <!-- Header Section Start -->
     <header class="header-background">
       <!-- Navbar -->
