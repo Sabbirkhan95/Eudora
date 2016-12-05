@@ -25,7 +25,7 @@ body{font-family: 'Playfair Display', serif; width: 100%;}
 .navbar-toggle {z-index:3;}
 .navbar-toggle {color: #e59205;}
 /*CSS for Nav-Bar End */
-.header-background{background-image: url(../images/header_bg.png); background-repeat: no-repeat;background-size: cover;background-position: center;}
+.header-background{background-image: url(../images/header_bg.png); background-repeat: no-repeat;background-size: cover;height:46em; background-position: center;}
 /*.header-background:after{
 	z-index: 1;
 	position: absolute;
@@ -148,6 +148,7 @@ ul li a:hover{text-decoration: none;}
 	.navbar-left{left:31em}
 	.navbar-right{right:35em;}
 	/*End Navbar Section*/
+	.header-background{ height:66em;}
 	/*Start 1st Catagory*/
 	.line-1{width: 100%; left: 7em;}
 	.line-2{width: 100%;right: 7em;}
